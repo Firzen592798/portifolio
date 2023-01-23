@@ -1,0 +1,25 @@
+.dados-pessoais{
+  display: flex !important;
+  padding: 10px;
+  gap: 10px;
+  color: white;
+  background-color: slategrey;
+  flex-flow: row nowrap;
+}
+
+.dados-pessoais>img{
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.dados-pessoais>h3{
+  margin: 0px;
+}
+
+.dados-pessoais>p{
+  margin: 5px 0px;
+}

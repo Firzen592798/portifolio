@@ -1,0 +1,13 @@
+li{
+  list-style-type: none;
+}
+
+ul{
+  padding: 0;
+  font-size: 1.6em;
+  margin: 20px 0px;
+}
+
+.competencias{
+  padding-left: 20px;
+}
