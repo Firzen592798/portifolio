@@ -24,6 +24,10 @@
   color: white;
 }
 
+.social-media a:hover{
+  background-color: blue;
+}
+
 .social-media a>i{
   margin-right: 10px;
 }

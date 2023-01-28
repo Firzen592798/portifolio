@@ -2,18 +2,20 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display:flex;
-  min-width: 100vw;
-  min-height: 100vh;
   aside{
+    background: azure;
     margin: 0px;
     display: block;
     flex-direction: row;
     justify-content: flex-end;
     width:25vw;
+    height:100%;
+    position: fixed;
   }
   main{
+    left: 25vw;
+    position: relative;
     margin: 0;
-    width: 100%;
   }
   @media(max-width: 652px){
     flex-direction: column;

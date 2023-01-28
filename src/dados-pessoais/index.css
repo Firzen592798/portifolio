@@ -11,15 +11,15 @@
   width: 5em;
   height: 5em;
   border-radius: 50%;
-
   object-fit: cover;
   flex-shrink: 0;
 }
 
-.dados-pessoais>h3{
+.dados-pessoais h3{
   margin: 0px;
 }
 
-.dados-pessoais>p{
+.dados-pessoais p{
   margin: 5px 0px;
+  padding: 0;
 }
