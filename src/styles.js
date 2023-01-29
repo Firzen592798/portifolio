@@ -18,10 +18,19 @@ export const Container = styled.div`
     margin: 0;
   }
   @media(max-width: 652px){
+    display:flex;
     flex-direction: column;
     aside{
+      position: initial;
+      height: initial;
       display: block;
       width: 100%;
+    }
+    main{
+      display: block;
+      width: 100%;
+      position: initial;
+      left: 5vw;
     }
   }
 `;

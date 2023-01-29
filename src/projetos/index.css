@@ -41,3 +41,13 @@
 .card-projeto p{
   margin: 5px 0px;
 }
+
+@media(max-width: 652px){
+  .projetos{
+    grid-template-columns: repeat(1, 90vw);
+  }
+  .card-projeto img{
+    width: 56vw;
+    height: 32vw;
+  }
+}

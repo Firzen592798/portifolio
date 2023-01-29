@@ -5,7 +5,7 @@ function SecaoRedesSociais(props){
 
   const redesSociais = props.redesSociais.map(
     redeSocial =>
-      <a key={redeSocial.nome} href={redeSocial.url}> 
+      <a target={"_blank"} key={redeSocial.nome} href={redeSocial.url}> 
         <i class={redeSocial.icone}></i>
         {redeSocial.nome}
       </a>

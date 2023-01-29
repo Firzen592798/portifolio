@@ -11,8 +11,6 @@
   margin: 0px;
 }
 
-
-
 .social-media a{
   margin: 10px 0px; 
   display: block;
@@ -30,4 +28,11 @@
 
 .social-media a>i{
   margin-right: 10px;
+}
+
+@media(max-width: 652px){
+  .social-media{
+    height: initial;
+    padding: 0 10px;
+  }
 }
